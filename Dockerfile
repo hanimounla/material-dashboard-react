@@ -16,4 +16,3 @@ WORKDIR /usr/share/nginx/html
 COPY --from=builder /app/build .
 EXPOSE 80
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
-# commenttt
